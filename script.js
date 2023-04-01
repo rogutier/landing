@@ -20,12 +20,4 @@ acerca.addEventListener("click", function() {
   despedida();
 });
 
-function regresa() {
-  alert("Regresa cuando quieras.");
-}
 
-var contacto = document.getElementsByClassName("link")[2];
-
-contacto.addEventListener("click", function() {
-  regresa();
-});
